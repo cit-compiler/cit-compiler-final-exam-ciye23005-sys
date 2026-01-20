@@ -12,6 +12,7 @@ expression ::= term
 
 term ::= factor
        | term "*" factor
+       | term "/" factor
 
 factor ::= number
        | identifier
@@ -19,11 +20,12 @@ factor ::= number
 
 identifier ::= letter
        | identifier letter
+       | identifier digit
 
 number ::= digit
        | number digit
 
-letter ::= "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "j"
+letter ::= "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j"
        | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" 
        | "t" | "u" | "v" | "w" | "x" | "y" | "z"
 
