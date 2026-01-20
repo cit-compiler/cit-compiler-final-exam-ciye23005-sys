@@ -297,14 +297,14 @@ IMPORTANT: もし、最新のlox01が、試験範囲ちょうどの段階の状�
 
 .`sample03.lox` を動作させた様子のスナップショット
 --
-image::sample03_lox_snap.jpg[]
+image::sample03_lox_snap.png[]
 --
 
 * `codes/sample04.lox` を lox01の `codes` ディレクトリへコピーして、実行しなさい。
 
 .`sample04.lox` を動作させた様子のスナップショット
 --
-image::sample04_lox_snap.jpg[]
+image::sample04_lox_snap.png[]
 --
 
 IMPORTANT: 問5の回答に手を付けたなら、一度commitしておきなさい（後でやったり、修正した場合も同様）。 +
